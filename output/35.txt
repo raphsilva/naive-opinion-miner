@@ -1,0 +1,53 @@
+> ID:  35
+
+> Type:  Celular
+
+> Product:  Smartphone Samsung Galaxy S7 SM-G930 32GB
+
+> Average rating:  9/10
+
+> Number of reviews:  221
+
+> Collection date:  2018-12-05
+
+> Processing date:  2019-09-13
+
+> Source:  https//www.buscape.com.br/avaliacoes/smartphone-samsung-galaxy-s7-sm-g930-32gb
+
+
+#_aspects____________positive__negative___neutral____non-op_____total____exclus
+# BATERIA                   1                                       1         0
+# CÂMERA _  _  _  _  _  _   2 _  _  _  _  _  _  _  _  _  _  _  _  _ 2 _  _  _ 2
+# DESEMPENHO                2                                       2         0
+# EMPRESA _  _  _  _  _  _  2 _  _  _  _  _  _  _  _  _  _  _  _  _ 2 _  _  _ 1
+# PRODUTO                   6                                       6         6
+# TAMANHO _  _  _  _  _  _  1 _  _  _  _  _  _  _  _  _  _  _  _  _ 1 _  _  _ 0
+# TELEVISÃO                 1                                       1         0
+# _TOTAL___________________15______________________________________15_________9
+
+
+
+002.001  +[CÂMERA]            ::  Ótimo celular. Câmera excelente.
+
+002.001  +[CÂMERA]            ::  Celular muito bom no geral, se destacando pela câmera.
+
+005.001  +[EMPRESA]           ::  A melhor oferta encontrada e entrega rápida.
+
+001.001  +[PRODUTO]           ::  Excelente.
+
+003.001  +[PRODUTO]           ::  Bom produto.
+
+005.001  +[PRODUTO]           ::  Excelente produto.
+
+001.001  +[PRODUTO]           ::  Até agora é muito boa.
+
+005.001  +[PRODUTO]           ::  Parabéns Shopfacil.com.
+
+006.001  +[PRODUTO]           ::  Top de linha de verdade.
+
+003.001  +[BATERIA DESEMPENHO]::  Igual aos outros a única coisa que é melhor a bateria carrega muito rápido.
+
+003.001  +[EMPRESA TELEVISÃO] ::  Na propaganda diz ter tv digital é mentira.
+
+006.001  +[TAMANHO DESEMPENHO]::  Sempre quis um aparelho da linha S e o S7 tem o tamanho perfeito para nao chamar muita atencao e desempenho fantástico.
+
