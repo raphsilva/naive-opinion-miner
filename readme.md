@@ -99,7 +99,7 @@ For example:
 
 048.116  +[BATERIA]           ::  Gostei muito a bateria dura bastante,!
 
-143.361  +[SO BATERIA CÂMERA PREÇO]::  Celular com Android 7.0, com bons recursos, boa bateria, boa câmera e bom custo benefício.
+174.440  -[ARMAZENAMENTO SO]  ::  Para mim, a memória interna deveria ser aumentada, pois o Android quase ocupa toda ela.
 
 098.243  -[BATERIA DESIGN]    ::  Só a duração da bateria e o design que poderiam ser melhores.
 ```
