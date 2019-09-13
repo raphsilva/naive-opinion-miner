@@ -10,7 +10,7 @@ def unikey(seq):
     return seq.translate(trans)
 
 
-def tabular_aspects(data_to_write):
+def make_overview_table(data_to_write):
     list_of_aspects = count_aspects(data_to_write)
     s = '# '
     s += "%-17s" % 'aspects'
