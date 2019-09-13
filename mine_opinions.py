@@ -5,8 +5,8 @@ from datetime import datetime
 
 import read_data
 
-from aspects.aspects import find_aspects
-from polarity.polarity import get_polarity
+from aspects import find_aspects
+from polarity import get_polarity
 
 from format_output.format_output import tabular_aspects
 from format_output.format_output import unikey
