@@ -1,5 +1,5 @@
-DIR_save = '../DATA/processed'  # Path to the main data folder
-DIR_read = '../DATA/raw'
+DIR_save = 'output'
+DIR_read = 'input'
 
 from datetime import datetime
 
