@@ -1,12 +1,10 @@
 import json
-from pprint import pprint
 import pprint
 
 aspects = json.loads(open("aspects.json", 'r').read())
 b = open("aspects_bck.json", 'w')
 b.write(pprint.pformat(aspects).replace('\'', '\"'))
 b.close()
-
 
 for t in dict(aspects):
     for i in dict(aspects[t]):
@@ -16,11 +14,7 @@ for t in dict(aspects):
             print('deleting  ', t, i, aspects[t][i])
             del aspects[t][i]
 
-
-
 a = pprint.pformat(aspects)
-
-
 
 s = open("aspects.json", 'w')
 s.write(a.replace('\'', '\"'))

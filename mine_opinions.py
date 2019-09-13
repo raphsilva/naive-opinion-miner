@@ -102,8 +102,8 @@ for product_data in products_data:
     output_file.write('\n\n\n')
 
     data_parsed_by_aspects = sorted(data_to_write, key=lambda k: (
-    len(k['aspects']), unikey((' '.join(a for a in k['aspects']))), k['polarity'], len(k['sentence']),
-    unikey(k['sentence'].lower())))
+        len(k['aspects']), unikey((' '.join(a for a in k['aspects']))), k['polarity'], len(k['sentence']),
+        unikey(k['sentence'].lower())))
 
     for k in data_parsed_by_aspects:
         save_sentence(output_file, k['id'], k['sentence'], k['polarity'], k['aspects'])
