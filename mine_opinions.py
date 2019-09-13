@@ -5,11 +5,11 @@ from datetime import datetime
 
 import read_data
 
-from aspects import find_aspects
-from polarity import get_polarity
+from opinion_mining.aspects import find_aspects
+from opinion_mining.polarity import get_polarity
 
-from format_output.format_output import make_overview_table
-from format_output.format_output import unikey
+from format_output import make_overview_table
+from format_output import unikey
 
 SENTENCE_BEGIN_INDICATOR = '::'
 
