@@ -8,7 +8,7 @@ import read_data
 from aspects import find_aspects
 from polarity import get_polarity
 
-from format_output.format_output import tabular_aspects
+from format_output.format_output import make_overview_table
 from format_output.format_output import unikey
 
 SENTENCE_BEGIN_INDICATOR = '::'
@@ -97,7 +97,7 @@ for product_data in products_data:
 
         data_to_write.append(k)
 
-    output_file.write(tabular_aspects(data_to_write))  # Write table with aspects and polarities counts
+    output_file.write(make_overview_table(data_to_write))  # Write table with aspects and polarities counts
 
     output_file.write('\n\n\n')
 
