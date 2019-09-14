@@ -12,18 +12,18 @@ Run `mine_opinions.py` with Python 3.6.
 
 The input set must be placed in the directory `input`. Each file in that directory contains opinative text about a single product. 
 
-The format of the files is: lines starting with `>` are meta information (any relevant information about the product). Each opinative review starts with the date it was published, followed by a line containing the rating (given to the product by the reviewer), the upvotes and downvotes of the comment (given to the review by readers). Below is a template; things in brackets are variables.
+The format of the files is: lines starting with `>` are meta information (any relevant information about the product). Each opinative review starts with the date it was published, followed by a line containing the recommendation (the letter 'Y' if the reviewer recommends the product and the letter 'N' if not), the upvotes and downvotes of the comment (given to the review by readers). Below is a template; things in brackets are variables.
 
 ```
 > [meta information]: [value]
 > [meta information]: [value]
 
 @ [date]
-* [star rating]     +[upvotes]   -[downvotes]
+* [recommendation]     
 [sentence ID]   ::  [SENTENCE 1 OF REVIEW 1]
 
 @ [date]
-* [star rating]     +[upvotes]   -[downvotes]
+* [recommendation]    
 [sentence ID]   ::  [SENTENCE 1 OF REVIEW 2]
 [sentence ID]   ::  [SENTENCE 2 OF REVIEW 2]
 ```
@@ -39,15 +39,18 @@ An example of an input file is:
 > Collection date:  2018-11-13
 > Source:  https://www.buscape.com.br/avaliacoes/smartphone-motorola-moto-g-5-plus-xt1683
 
-@ 23/09/18
-* 4      +0   -0
-001.001 ::  Utilização no dia a dia.
-001.002 ::  O celular é muito bom para o uso comum do dia a dia, caso você use muitos aplicativos ou precise as vezes de muita agilidade e varias funcionalidades ao mesmo tempo ele pode tem um pouco de gargalo, mas são situações especificas, num geral gostei muito dele e cumpriu bem a função.
+@ 2017/05/29
+* Y
+020.083 ::  Exelente produto.
+020.084 ::  Produto de alta qualidade, com espaço interno de bom tamanho.
+020.085 ::  Para jogos não se discute roda qualquer jogo e com uma tela de ótimo tamanho.
 
-@ 05/07/18
-* 5      +1   -0
-002.003 ::  Excelente custo-benefício.
-002.004 ::  A experiência do Android puro é, de longe, muito melhor que outras opções.
+
+@ 2017/07/06
+* N
+019.078 ::  Produto Ruim.
+019.079 ::  Recebi o produto mas o mesmo não carregava.
+
 ``` 
 
 
