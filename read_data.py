@@ -83,21 +83,17 @@ def getData(filename):
         elif line[0] in ['#', '>']:
             continue
 
+        # Skip duplicates and trash
+        elif line[0] == '~':
+            continue
+
         elif line[0] == '@':  # Update date
             review_date = line[2:]
             continue
 
         elif line[0] == '*':
-            review_rate = int(line[2])
-            votes = line[3:].replace('-', '').replace('+', '').split()
-            review_upvotes = int(votes[0])
-            review_downvotes = int(votes[1])
-
+            recommendation = line[2]
             continue
-
-        elif not line[0].isdigit():
-            flag = line[0]
-            line = line[2:]
 
         # Break a data entry into 'sentence' (text from review) and 'info' (polarity and aspect)
         sentence_text = line.split(SENTENCE_BEGIN_INDICATOR)[-1]
@@ -111,12 +107,7 @@ def getData(filename):
 
         n['date'] = review_date
 
-        n['rate'] = review_rate
-
-        n['flag'] = flag
-
-        n['upvotes'] = review_upvotes
-        n['downvotes'] = review_downvotes
+        n['recommendation'] = recommendation
 
         r.append(n)
 
