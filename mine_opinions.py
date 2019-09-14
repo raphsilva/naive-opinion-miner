@@ -74,18 +74,15 @@ for product_data in products_data:
 
     for entry in data:
 
-        if entry['flag'] != '':
-            continue
-
         sentence = entry['sentence']
 
         entry_id = entry['id']
         review_id = int(entry_id.split('.')[0])
         sentence_id = int(entry_id.split('.')[1])
 
-        rate = entry['rate']
+        recommendation = entry['recommendation']
 
-        polarity = get_polarity(sentence, rate)
+        polarity = {'Y': '+', 'N': '-', '?': '?'}[recommendation]
 
         aspect = find_aspects(sentence, product_type)
 
