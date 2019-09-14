@@ -17,7 +17,6 @@ def make_overview_table(data_to_write):
     s += "%10s" % 'positive'
     s += "%10s" % 'negative'
     s += "%10s" % 'neutral'
-    s += "%10s" % 'non-op'
     s += "%10s" % 'total'
     s = s.replace(' ', '_')
     s += '\n'
@@ -35,11 +34,11 @@ def make_overview_table(data_to_write):
 
 def count_aspects(info):
     count_aspects = {}
-    count_aspects['_TOTAL_'] = {'+': 0, '-': 0, '.': 0, 'x': 0, 'total': 0}
+    count_aspects['_TOTAL_'] = {'+': 0, '-': 0, '.': 0, 'total': 0}
     for i in info:
         for asp in i['aspects']:
             if asp not in count_aspects:
-                count_aspects[asp] = {'+': 0, '-': 0, '.': 0, 'x': 0, 'total': 0}
+                count_aspects[asp] = {'+': 0, '-': 0, '.': 0, 'total': 0}
             count_aspects[asp][(i['polarity'])] += 1
             count_aspects['_TOTAL_'][(i['polarity'])] += 1
 
@@ -52,6 +51,5 @@ def aspect_stats(list_of_aspects, aspect):
     s += "%6d" % list_of_aspects[aspect]['+']
     s += "%10d" % list_of_aspects[aspect]['-']
     s += "%10d" % list_of_aspects[aspect]['.']
-    s += "%10d" % list_of_aspects[aspect]['x']
-    s += "%10d" % (list_of_aspects[aspect]['+'] + list_of_aspects[aspect]['-'] + list_of_aspects[aspect]['.'] + list_of_aspects[aspect]['x'])
+    s += "%10d" % (list_of_aspects[aspect]['+'] + list_of_aspects[aspect]['-'] + list_of_aspects[aspect]['.'])
     return s.replace(' 0 ', '   ')
