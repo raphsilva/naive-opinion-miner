@@ -1,4 +1,4 @@
-> ID:  31
+> ID:  01
 
 > Type:  Celular
 
@@ -10,31 +10,31 @@
 
 > Collection date:  2018-11-13
 
-> Processing date:  2019-09-13
+> Processing date:  2019-09-14
 
 > Source:  https//www.buscape.com.br/avaliacoes/smartphone-motorola-moto-g-5-plus-xt1683
 
 
-#_aspects____________positive__negative___neutral____non-op_____total____exclus
-# ARMAZENAMENTO            15         3                            18         3
-# ÁUDIO _  _  _  _  _  _  _ 1 _  _  _  _  _  _  _  _  _  _  _  _  _ 1 _  _  _ 0
-# BATERIA                  25         4                            29         9
-# CÂMERA _  _  _  _  _  _  32 _  _  _ 2 _  _  _  _  _  _  _  _  _  34 _  _   10
-# DESEMPENHO               30         3                            33        10
-# DESIGN _  _  _  _  _  _  22 _  _  _ 2 _  _  _  _  _  _  _  _  _  24 _  _  _ 7
-# EMPRESA                  10         2                            12         5
-# FUNCIONALIDADE _  _  _  _ 5 _  _  _  _  _  _  _  _  _  _  _  _  _ 5 _  _  _ 1
-# PESO                      4                                       4         0
-# PREÇO _  _  _  _  _  _   70 _  _  _ 3 _  _  _  _  _  _  _  _  _  73 _  _   50
-# PRODUTO                 367         7                           374       345
-# RÁDIO _  _  _  _  _  _  _ 1 _  _  _  _  _  _  _  _  _  _  _  _  _ 1 _  _  _ 0
-# RESISTÊNCIA               5                                       5         0
-# SO _  _  _  _  _  _  _   11 _  _  _ 1 _  _  _  _  _  _  _  _  _  12 _  _  _ 2
-# TAMANHO                   5                                       5         1
-# TELA _  _  _  _  _  _  _ 12 _  _  _ 1 _  _  _  _  _  _  _  _  _  13 _  _  _ 2
-# TELEVISÃO                 7         1                             8         2
-# USABILIDADE _  _  _  _   18 _  _  _ 1 _  _  _  _  _  _  _  _  _  19 _  _  _ 6
-# _TOTAL__________________640________30___________________________670_______453
+#_aspects____________positive__negative___neutral_____total
+# ARMAZENAMENTO            15         3                  18
+# ÁUDIO _  _  _  _  _  _  _ 1 _  _  _  _  _  _  _  _  _   1
+# BATERIA                  25         4                  29
+# CÂMERA _  _  _  _  _  _  32 _  _  _ 2 _  _  _  _  _  _ 34
+# DESEMPENHO               30         3                  33
+# DESIGN _  _  _  _  _  _  22 _  _  _ 2 _  _  _  _  _  _ 24
+# EMPRESA                  10         2                  12
+# FUNCIONALIDADE _  _  _  _ 5 _  _  _  _  _  _  _  _  _   5
+# PESO                      4                             4
+# PREÇO _  _  _  _  _  _   70 _  _  _ 3 _  _  _  _  _  _ 73
+# PRODUTO                 367         7                 374
+# RÁDIO _  _  _  _  _  _  _ 1 _  _  _  _  _  _  _  _  _   1
+# RESISTÊNCIA               5                             5
+# SO _  _  _  _  _  _  _   11 _  _  _ 1 _  _  _  _  _  _ 12
+# TAMANHO                   5                             5
+# TELA _  _  _  _  _  _  _ 12 _  _  _ 1 _  _  _  _  _  _ 13
+# TELEVISÃO                 7         1                   8
+# USABILIDADE _  _  _  _   18 _  _  _ 1 _  _  _  _  _  _ 19
+# _TOTAL__________________640________30_________________670
 
 
 

@@ -1,4 +1,4 @@
-> ID:  35
+> ID:  02
 
 > Type:  Celular
 
@@ -6,24 +6,24 @@
 
 > Average rating:  9/10
 
-> Number of reviews:  221
+> Number of reviews:  6
 
 > Collection date:  2018-12-05
 
-> Processing date:  2019-09-13
+> Processing date:  2019-09-14
 
 > Source:  https//www.buscape.com.br/avaliacoes/smartphone-samsung-galaxy-s7-sm-g930-32gb
 
 
-#_aspects____________positive__negative___neutral____non-op_____total____exclus
-# BATERIA                   1                                       1         0
-# CÂMERA _  _  _  _  _  _   2 _  _  _  _  _  _  _  _  _  _  _  _  _ 2 _  _  _ 2
-# DESEMPENHO                2                                       2         0
-# EMPRESA _  _  _  _  _  _  2 _  _  _  _  _  _  _  _  _  _  _  _  _ 2 _  _  _ 1
-# PRODUTO                   6                                       6         6
-# TAMANHO _  _  _  _  _  _  1 _  _  _  _  _  _  _  _  _  _  _  _  _ 1 _  _  _ 0
-# TELEVISÃO                 1                                       1         0
-# _TOTAL___________________15______________________________________15_________9
+#_aspects____________positive__negative___neutral_____total
+# BATERIA                   1                             1
+# CÂMERA _  _  _  _  _  _   2 _  _  _  _  _  _  _  _  _   2
+# DESEMPENHO                2                             2
+# EMPRESA _  _  _  _  _  _  2 _  _  _  _  _  _  _  _  _   2
+# PRODUTO                   6                             6
+# TAMANHO _  _  _  _  _  _  1 _  _  _  _  _  _  _  _  _   1
+# TELEVISÃO                 1                             1
+# _TOTAL___________________15____________________________15
 
 
 
