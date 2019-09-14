@@ -1,6 +1,6 @@
 import json
 
-aspects_path = 'resources/aspects.json'
+aspects_path = 'opinion_mining/aspects.json'
 
 aspects = json.loads(open(aspects_path, 'r').read())
 
