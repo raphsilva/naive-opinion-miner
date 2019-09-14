@@ -2,7 +2,7 @@ This projected was made to perform a naive opinion identification in texts about
 
 # Methodology
 
-Opinions are identified by their polarity and aspect. Aspects are found based on a list of words that are used as clued (`opinion_mining/aspects.json`). Polarities are guessed based on the rating that the review writer gave to the product.
+Opinions are identified by their polarity and aspect. Aspects are found based on a list of words that are used as clues (`opinion_mining/aspects.json`). Polarities are guessed based on the rating that the review writer gave to the product.
  
 # To execute
 
