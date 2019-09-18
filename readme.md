@@ -12,7 +12,7 @@ Run `mine_opinions.py` with Python 3.6.
 
 The input set must be placed in the directory `input`. Each file in that directory contains opinative text about a single product. 
 
-The format of the files is: lines starting with `>` are meta information (any relevant information about the product). Each opinative review starts with the date it was published, followed by a line containing the recommendation (the letter 'Y' if the reviewer recommends the product and the letter 'N' if not), the upvotes and downvotes of the comment (given to the review by readers). Below is a template; things in brackets are variables.
+The format of the files is: lines starting with `>` are meta information (any relevant information about the product). Each opinative review starts with the date it was published, followed by a line containing the recommendation (the letter 'Y' if the reviewer recommends the product and the letter 'N' if not). Below is a template; things in brackets are variables.
 
 ```
 > [meta information]: [value]
